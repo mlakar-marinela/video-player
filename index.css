@@ -1,0 +1,78 @@
+.body {
+    background-color: powderblue;
+}
+
+#player {
+    width:50%;
+    height: 50%;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-color: black;
+    background-color: black;
+}
+
+#video {
+   width: 100%;
+   height: 100%;
+}
+
+#controls {
+    width: 100%;                                           
+    position: absolute;
+    background-color: black;
+    color: white;
+    text-align: center;
+    top: 90%;
+    left: 0%;
+    transform: translateY(50%);
+}
+
+#bar {
+    width: 100%;
+    height: 10%;
+    background-color: aliceblue;
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    transform: translate(-50%, -100%);
+}
+
+#progress {
+    height: 100%;
+    background-color: #4caf50;
+    width: 0%;
+    transition: width 0.5s linear;
+}
+
+#timer {
+    display:inline-block;
+    transform: translateX(-50%);
+}
+
+#play {
+    transform: translateX(-100%);
+}
+
+#pause {
+    transform: translateX(-100%);
+}
+
+#fullscreen {
+    transform: translateX(-50%);
+}
+
+#choose {
+    color: transparent;
+    border-color: transparent;
+   transform:scale(75%,100%);
+}
+
+#btn {
+    width: 0%;
+    background-color: transparent;
+    border-color: transparent;
+    transform: translateX(-400%);
+}

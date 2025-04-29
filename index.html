@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<link rel="stylesheet" href="index.css">
+
+<body class="body">
+    <div id="player">
+        <video id="video" preload="metadata">
+            <source src=" " type="video/mp4">
+        </video>
+        <div id="controls">
+            <button id='play'>&#9205</button>
+            <button id='pause'>&#9208</button>
+            <div id="bar">
+                <div id="progress"></div>
+            </div>
+            <span id="timer">00:00</span>
+            <button id='fullscreen'>&#9974</button>
+            <button id="btn">
+                  <input type='file' id="choose">
+            </button>
+        </div>
+    </div>
+</body>
+<script src="actions.js"></script>
